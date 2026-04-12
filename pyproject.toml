@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imago-theme-fastrack"
+version = "2026.04.13.01"
+description = "Fastrack theme for Ophix Project Servers"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Fastrack" }
+]
+dependencies = [
+    "ophix-theme-tools>=2026.04.05.01",
+]
+
+[project.entry-points."ophix.plugins"]
+imago_theme_fastrack = "imago_theme_fastrack"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+imago_theme_fastrack = [
+    "themes/**/*",
+    "deploy_templates/**/*",
+]
