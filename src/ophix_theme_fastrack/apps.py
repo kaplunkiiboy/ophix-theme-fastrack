@@ -1,9 +1,9 @@
 from django.apps import AppConfig
 
 
-class ImagoThemeFastrackConfig(AppConfig):
+class OphixThemeFastrackConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "imago_theme_fastrack"
+    name = "ophix_theme_fastrack"
     verbose_name = "Theme: Fastrack"
 
     def ready(self):
@@ -21,4 +21,4 @@ class ImagoThemeFastrackConfig(AppConfig):
 def _install_on_migrate(sender, **kwargs):
     from ophix_theme_tools.utils import install_bundled_theme
     from django.apps import apps
-    install_bundled_theme(apps.get_app_config("imago_theme_fastrack"))
+    install_bundled_theme(apps.get_app_config("ophix_theme_fastrack"))
