@@ -19,6 +19,6 @@ class OphixThemeFastrackConfig(AppConfig):
 
 
 def _install_on_migrate(sender, **kwargs):
-    from ophix_theme_tools.utils import install_bundled_theme
+    from admin_interface.utils import install_bundled_theme
     from django.apps import apps
     install_bundled_theme(apps.get_app_config("ophix_theme_fastrack"))
