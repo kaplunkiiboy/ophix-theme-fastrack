@@ -27,6 +27,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 ophix_theme_fastrack = [
+    "OPHIX_RELEASE_NOTES.md",
     "themes/**/*",
     "deploy_templates/**/*",
 ]
