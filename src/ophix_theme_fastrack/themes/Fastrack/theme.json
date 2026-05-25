@@ -24,6 +24,7 @@
       "css_header_text_color": "#C7C8CA",
       "css_header_link_color": "#c7c8ca",
       "css_header_link_hover_color": "#a0ca3c",
+      "css_warning_color": "#ff9616",
       "css_module_background_color": "#013954",
       "css_module_background_selected_color": "#ecf4d8",
       "css_module_text_color": "#FFFFFF",
