@@ -3,7 +3,7 @@
     "model": "admin_interface.theme",
     "fields": {
       "name": "Fastrack",
-      "active": true,
+      "active": false,
       "title": "",
       "title_color": "#e4eaea",
       "title_visible": true,
@@ -24,7 +24,6 @@
       "css_header_text_color": "#C7C8CA",
       "css_header_link_color": "#c7c8ca",
       "css_header_link_hover_color": "#a0ca3c",
-      "css_warning_color": "#ff9616",
       "css_module_background_color": "#013954",
       "css_module_background_selected_color": "#ecf4d8",
       "css_module_text_color": "#FFFFFF",
@@ -41,6 +40,9 @@
       "css_delete_button_background_color": "#d32b22",
       "css_delete_button_background_hover_color": "#BF4634",
       "css_delete_button_text_color": "#FFFFFF",
+      "css_success_color": "#a0ca3c",
+      "css_warning_color": "#ff9616",
+      "css_muted_color": "#999999",
       "related_modal_active": true,
       "related_modal_background_color": "#000000",
       "related_modal_background_opacity": "0.2",
@@ -60,7 +62,8 @@
       "recent_actions_visible": false,
       "form_actions_sticky": true,
       "form_submit_sticky": true,
-      "form_pagination_sticky": true
+      "form_pagination_sticky": true,
+      "custom_css_vars": {}
     }
   }
 ]
