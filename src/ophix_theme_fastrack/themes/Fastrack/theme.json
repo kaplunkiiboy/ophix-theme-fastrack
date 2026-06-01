@@ -4,7 +4,6 @@
     "fields": {
       "name": "Fastrack",
       "active": false,
-      "title": "",
       "title_color": "#e4eaea",
       "title_visible": true,
       "logo": "admin-interface/themes/Fastrack/logo/ft_logo.png",
