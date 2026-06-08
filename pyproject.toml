@@ -13,7 +13,7 @@ authors = [
     { name = "Fastrack" }
 ]
 dependencies = [
-    "ophix-admin-interface>=2026.05.16.01",
+    "ophix-admin-interface>=2026.06.08.04",
 ]
 
 [project.entry-points."ophix.plugins"]
